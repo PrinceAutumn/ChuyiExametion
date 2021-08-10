@@ -1,0 +1,190 @@
+/*DIV*/
+* {
+    box-sizing: border-box;
+}
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+.header {
+    background-color: #9933cc;
+    color: #ffffff;
+    padding: 15px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color :#33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+#divA{
+    width: 90%;
+    height: 10%;
+    margin: 1% 1% 0 5%;
+    border-style:solid;
+    background-color: #cccccc;
+}
+#divB{
+    width: 90%;
+    height: 85%;
+    margin: 1% 0% 0 5%;
+    border-style:solid;
+    background-color: #cccccc;
+}
+#divImg{
+    width: 10%;
+    height: 10%;
+    margin: 1% 0% 0 1%;
+    float: left;
+    border-style:solid;
+
+}
+#divC{
+    width: 85%;
+    height: 12%;
+    margin: 1% 0% 0 1%;
+    float: left;
+    border-style:solid;
+    background-color: aliceblue;
+}
+#divD{
+    width: 10%;
+    height: 80%;
+    margin: 1% 0% 0 1%;
+    float: left;
+    border-style:solid;
+    background-color: aliceblue;
+}
+#divE{
+    width: 85%;
+    height: 80%;
+    margin: 1% 0% 0 1%;
+    float: left;
+    border-style:solid;
+    background-color: aliceblue;
+}
+#div1{
+    width: 31%;
+    height: 25%;
+    margin: 1% 0% 0 1%;
+    float: left;
+    border-style:solid;
+    background-color: aliceblue;}
+#div2{
+    width: 31%;
+    height: 25%;
+    margin: 1% 0% 0 1%;
+    float: left;
+    border-style:solid;
+    background-color: aliceblue;}
+#div3{
+    width: 31%;
+    height: 25%;
+    margin: 1% 0% 0 1%;
+    float: left;
+    border-style:solid;
+    background-color: aliceblue;}
+#div4{
+    width: 31%;
+    height: 25%;
+    margin: 1% 0% 0 1%;
+    float: left;
+    border-style:solid;
+    background-color: aliceblue;}
+#div5{
+    width: 31%;
+    height: 25%;
+    margin: 1% 0% 0 1%;
+    float: left;
+    border-style:solid;
+    background-color: aliceblue;}
+#div6{
+    width: 31%;
+    height: 25%;
+    margin: 1% 0% 0 1%;
+    float: left;
+    border-style:solid;
+    background-color: aliceblue;}
+#div7{
+    width: 31%;
+    height: 25%;
+    margin: 1% 0% 0 1%;
+    float: left;
+    border-style:solid;
+    background-color: aliceblue;}
+#div8{
+    width: 31%;
+    height: 25%;
+    margin: 1% 0% 0 1%;
+    float: left;
+    border-style:solid;
+    background-color: aliceblue;}
+#div9{
+    width: 31%;
+    height: 25%;
+    margin: 1% 0% 0 1%;
+    float: left;
+    border-style:solid;
+    background-color: aliceblue;}
+/*LABEL*/
+#labelA{
+    font-size: 30px;
+}
+#labelB{
+    font-size: 50px;
+}
+/*BUTTON*/
+#start{
+    width: 80%;
+    height: 6%;
+    margin: 10% 0% 0 5%;
+}
+#force{
+    width: 80%;
+    height: 6%;
+    margin: 10% 0% 0 5%;}
+#cheat{
+    width: 80%;
+    height: 6%;
+    margin: 10% 0% 0 5%;}
+#discipline{
+    width: 80%;
+    height: 6%;
+    margin: 10% 0% 0 5%;}
+#suspend{
+    width: 80%;
+    height: 6%;
+    margin: 10% 0% 0 5%;}
+#export{
+    width: 80%;
+    height: 6%;
+    margin: 10% 0% 0 5%;}
